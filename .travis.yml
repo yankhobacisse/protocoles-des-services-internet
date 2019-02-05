@@ -2,9 +2,6 @@ java: ubuntu
 
 script:    
   - cd src
-  - make clean
   - make
   - ls -al
-  - java Serveur
-  - java Client
 
